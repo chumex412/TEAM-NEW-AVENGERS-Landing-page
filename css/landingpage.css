@@ -1,0 +1,639 @@
+body {
+    font-family: "Poppins" sans-serif;
+    width: 100%;
+    overflow-x: hidden !important;
+}
+hr {
+    border: 2px solid #02BDE7;
+    width: 88px;
+}
+.btn-info {
+    background: #02BDE7;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 45px;
+    border-radius: 0px;
+}
+.btn-primary {
+    background: #00E2CA;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 45px;
+}
+.btn-danger {
+    background: #FF7200;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 45px;
+}
+
+/*============================
+       Navigation
+===========================*/
+
+.hidden{
+      display: none !important;
+    }
+    nav{
+      text-transform: uppercase;
+      background-color: #fff !important; 
+      width: 90%; margin-left: 3%;
+    }
+    .navbar ul li{
+      margin-right: 5%;
+    }
+    nav ul li a{font-size: 20px;
+      line-height: 36px;
+      color: rgba(0, 0, 0, 0.7);
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: normal;
+    }
+
+    nav form{
+      margin: 0% 5% 0% 11%;
+    }
+
+/*============================
+       Landing page header
+==========================*/
+
+#ldHeader .container {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+#ldHeader h2 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 90px;
+}
+#ldHeader p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 45px;
+}
+.head-bg {
+    background: rgba(0, 226, 202, 0.05);
+    height: 550px;
+    padding: 0px;
+}
+img.img-fluid.head-img {
+    height: 550px;
+    position: absolute;
+    width: 600px;
+    top: -50px;
+    left: -70px;
+}
+
+/*=====================
+    About Page
+====================*/
+#ldAbout {
+    height: 403px;
+    margin-bottom: 100px;
+}
+
+#ldAbout h3 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 90px;
+}
+
+img.img-fluid.round-icons1 {
+    height: 55px;
+    border-radius: 50%;
+    box-shadow: 2px 5px 5px #c5c5c9;
+}
+img.img-fluid.round-icons2 {
+    height: 70px;
+    border-radius: 50%;
+    box-shadow: 2px 5px 5px #c5c5c9;
+    background: #1746CF;
+}
+img.img-fluid.round-icons3 {
+    height: 60px;
+    border-radius: 50%; 
+    box-shadow: 2px 5px 5px #c5c5c9;
+}
+.media-body {
+    
+}
+.media-body h5 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 45px;
+}
+.media-body p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+
+.temp-slide {
+    margin-bottom: 15px;
+    padding-bottom: 30px;
+}
+
+
+/*=====================
+    Template Releases
+=====================*/
+#releases {
+    background: rgba(2, 189, 231, 0.05);
+  
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.amazing h4 {
+    margin-bottom: 30px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 90px;
+}
+.more-info {
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+.more-info {
+    
+}
+.best-temp {
+    margin-bottom: 50px;
+}
+.best-temp h4 {
+    margin-bottom: 30px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 90px;
+}
+
+.stretch {
+    height: 295px;
+}
+.card {
+    background: rgba(0, 0, 0, 0.05);
+    border: none;
+}
+img.img-fluid.img-thumbnail.p-3 {
+    background: rgba(0, 0, 0, 0.05);
+}
+img.img-fluid.icons {
+    margin-bottom: 10px;
+    width: 25px;
+}
+.card-body .fa-arrow-right {
+    margin-top: 13px;
+}
+strong.text-primary {
+    color: #02BDE7 !important;
+}
+
+/*=========================
+    Template Update
+=========================*/
+
+#prices p {
+    margin-top: 100px;
+}
+#prices h4 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 90px;
+}
+img.img-fluid.img-update {
+    height: 650px;
+}
+
+/*====================
+    Reviews Section
+====================*/
+
+#reviews {
+    background-color: #f2fcfe;
+}
+.customer-review {
+    margin-bottom: 100px;
+}
+
+blockquote.blockquote-footer {
+    margin-top: 100px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 25px;
+    color: #000000;
+}
+#CarouselMenu2 {
+    height: 700px;
+}
+img.img-fluid.bent {
+    width: 40%;
+}
+.user {
+    position: absolute;
+    left: -75px;
+    top: 40px ;
+    width: 140px;
+    height:130px;
+    border-radius: 50%;
+    border: 15px solid #FFFFFF;
+    box-sizing: border-box;
+}
+.rw-content {
+    background: #fff;
+    height: 500px;
+    margin-top:100px;
+}
+.commenter {
+    margin-top: 80px;
+}
+
+/*====================
+Question and Answer
+====================*/
+
+.ques-ans {
+    background: linear-gradient(90deg, rgba(2, 189, 231, 0.8) 0%, rgba(23, 70, 207, 0.8) 100%), url(../img/3504844.jpg);
+    height: 450px;
+    padding: 10px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-top: 100px;
+    padding-left: 40px;
+}
+.serv-ques h4 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 90px;  
+    color: #FFFFFF;
+}
+
+/*=========================
+        Pricing Plan
+========================*/
+
+.p-header {
+    margin-bottom: 70px;
+}
+.p-header h4 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 90px;
+/* identical to box height */
+
+text-align: center;
+}
+.p-basic {
+    height: 700px;
+    padding: 40px;
+    background: rgba(0, 0, 0, 0.05);
+}
+.p-advance {
+    background: rgba(2, 189, 231, 0.05);
+    height: 700px;
+    padding: 40px;
+}
+.p-premium {
+    background: rgba(255, 114, 0, 0.05);
+     height: 700px;
+    padding: 40px;
+}
+.p-basic h5, .p-advance h5, .p-premium h5 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 90px;
+}
+.p-basic h6, .p-advance h6, .p-premium h6 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 45px;
+    margin-top:20px;
+    margin-bottom: 40px;
+}
+small.text-muted {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 36px;
+}
+.p-basic p, .p-advance p, .p-premium p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 40px;
+}
+.p-basic form, .p-advance form, .p-premium form {
+    
+}
+form .btn-primary {
+    margin-top: 160px;
+    border-radius: 0px;
+}
+form .btn-info {
+    margin-top: 95px;
+    border-radius: 0px;
+} 
+form .btn-danger {
+   margin-top: 63px;
+   border-radius: 0px; 
+}
+/*input.form-check-input {
+    border: 4px solid #000 !important;
+}*/
+
+
+.action {
+    padding-top: 70px;
+}
+.action p {
+    font-style: normal;
+    font-weight: normal;
+    line-height: 125%;
+}
+
+.action h6 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 125%;
+    margin-bottom: 30px;
+}
+
+/*============================
+        Footer
+===========================*/
+
+    footer {
+      background-color:#1746CF;
+      color: #fff;
+      padding: 15px;
+    }
+
+    .follow {
+      margin-left: -9.0%;
+    text-align: right;
+}
+
+    #footer-item {
+      margin-top: 5%;
+      display: flex;
+    }
+
+/*============================
+      RESPONSIVENESS 
+===========================*/
+@media (max-width: 990px) {
+    .serv-ques h4 {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 60px;
+}
+ .btn-info {
+        font-size: 12px;
+    }
+    .btn-primary {
+        font-size: 12px;
+    }
+    .btn-danger {
+        font-size: 12px;
+    }
+    #ldHeader h2 {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 25px;
+        line-height: 60px;
+    }
+    #ldHeader p {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .p-basic h5, .p-advance h5, .p-premium h5 {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 45px;
+    }
+    .p-basic h6, .p-advance h6, .p-premium h6 {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .p-basic p, .p-advance p, .p-premium p {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 25px;
+    }
+    form .btn-primary {
+        margin-top: 255px;
+    }
+    form .btn-info {
+        margin-top: 140px;
+    }
+    #ldAbout h3 {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .stretch {
+        height: 192px;
+    }
+    .media-body h5 {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 25px;
+        line-height: 40px;
+    }
+    
+    .amazing h4 {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .best-temp h4 {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .action h6 {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 85%;
+    }
+    #prices h4 {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 50px;
+    }
+}
+
+
+
+@media (max-width: 766px) {
+    #releases {
+        margin-top: 280px;
+    }
+    .amazing {
+        text-align: center;
+    }
+    img.img-fluid.img-update {
+        height: 400px;
+        padding-left: 30px;
+    }
+    .serv-ques h4 {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 50px;  
+        color: #FFFFFF;
+    }
+    hr {
+        margin: auto;
+    }
+    img.img-fluid.temp-img {
+        margin-top: 170px;
+        margin-left: 40px;
+    }
+    #templateView {
+        margin-top: 50px;
+    }
+    #releases {
+        margin-top: 10px;
+    }
+    footer h2 {
+        font-size: 24px;
+    }
+    img.img-fluid.foot-icons {
+        width: 30px;
+    }
+    img.img-fluid.round-icons1, img.img-fluid.round-icons2, img.img-fluid.round-icons3 {
+        position: absolute;
+        top: -40px;
+        left: 200px;
+    }
+}
+@media (min-width: 320px) and (max-width: 520px) {
+footer h2 {
+    font-size: 15px;
+}
+footer p {
+    font-size: 12px;
+}
+hr {
+        margin: auto;
+    }
+img.img-fluid.foot-icons {
+    width: 10px;
+}
+#ldAbout h3 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 40px;
+}
+ img.img-fluid.temp-img {
+        margin-top: 180px;
+    }
+.media-body h5 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+}
+.media-body p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+}
+img.img-fluid.round-icons1, img.img-fluid.round-icons2, img.img-fluid.round-icons3 {
+    position: absolute;
+    top: -40px;
+    left: 140px;
+}
+img.img-fluid.temp-img {
+        margin-top: 300px;
+        margin-left: 25px;
+    }
+.amazing h4 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+}
+.best-temp h4 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+}
+#prices h4 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+}
+.serv-ques h4 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+}
+.p-header h4 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+}
+.action h6 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 125%;
+}
+.btn-info {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+}
+blockquote.blockquote-footer {
+   margin-top: 100px;
+   font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 20px;
+    color: #000000;
+}
+div.rw-text.my-4 {
+    font-size: 12px;
+}
+}
