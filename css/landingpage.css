@@ -215,6 +215,10 @@ strong.text-primary {
 img.img-fluid.img-update {
     height: 650px;
 }
+i.fa.fa-arrow-right.ar-icon {
+        float: right;
+        margin-top: 15px;
+    }
 
 /*====================
     Reviews Section
@@ -516,6 +520,10 @@ form .btn-danger {
     hr {
         margin: auto;
     }
+    i.fa.fa-arrow-right.ar-icon {
+        float: right;
+        margin-top: 15px;
+    }
     img.img-fluid.temp-img {
         margin-top: 170px;
         margin-left: 40px;
@@ -536,6 +544,10 @@ form .btn-danger {
         position: absolute;
         top: -40px;
         left: 200px;
+    }
+    i.fa.fa-arrow-right.btn-prices.ml-4 {
+        float: right;
+        margin-top: 20px;
     }
 }
 @media (min-width: 320px) and (max-width: 520px) {
@@ -588,6 +600,11 @@ img.img-fluid.temp-img {
     line-height: 36px;
     text-align: center;
 }
+i.fa.fa-arrow-right.ar-icon {
+    float: right;
+    margin-top: 15px;
+}
+
 .best-temp h4 {
     font-style: normal;
     font-weight: bold;
@@ -619,12 +636,12 @@ img.img-fluid.temp-img {
     font-size: 24px;
     line-height: 125%;
 }
-.btn-info {
+/*.btn-info {
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
     line-height: 24px;
-}
+}*/
 blockquote.blockquote-footer {
    margin-top: 100px;
    font-style: normal;
