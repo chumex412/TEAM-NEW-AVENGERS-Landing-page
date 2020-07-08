@@ -242,9 +242,9 @@ blockquote.blockquote-footer {
 #CarouselMenu2 {
     height: 700px;
 }
-img.img-fluid.bent {
+/*img.img-fluid.bent {
     width: 40%;
-}
+}*/
 .user {
     position: absolute;
     left: -75px;
@@ -403,6 +403,122 @@ form .btn-danger {
 /*============================
       RESPONSIVENESS 
 ===========================*/
+@media (max-width: 1420px) {
+    #ldHeader h2 {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 35px;
+        line-height: 60px;
+    }
+    #prices h4 {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 45px;
+        line-height: 60px;
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 1198px) {
+.serv-ques h4 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 60px;
+    }
+ .btn-info {
+        font-size: 16px;
+    }
+    .btn-primary {
+        font-size: 16px;
+    }
+    .btn-danger {
+        font-size: 16px;
+    }
+    #ldHeader h2 {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 60px;
+    }
+    #ldHeader p {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height:30px;
+    }
+    
+    #ldAbout h3 {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .stretch {
+        height: 250px;
+    }
+    .media-body h5 {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 25px;
+        line-height: 40px;
+    }
+    
+    .amazing h4 {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .best-temp h4 {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .action h6 {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 85%;
+    }
+    #prices h4 {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .p-basic h5, .p-advance h5, .p-premium h5 {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 60px;
+    }
+    .p-basic h6, .p-advance h6, .p-premium h6 {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .p-basic p, .p-advance p, .p-premium p {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 35px;
+    }
+    form .btn-primary {
+        margin-top: 230px;
+    }
+    form .btn-info {
+        margin-top: 130px;
+    }
+    form .btn-danger {
+         margin-top: 100px;
+    }
+
+}
+
+
 @media (max-width: 990px) {
     .serv-ques h4 {
         font-style: normal;
@@ -423,7 +539,7 @@ form .btn-danger {
         font-style: normal;
         font-weight: bold;
         font-size: 25px;
-        line-height: 60px;
+        line-height: 40px;
     }
     #ldHeader p {
         font-style: normal;
@@ -455,20 +571,26 @@ form .btn-danger {
     form .btn-info {
         margin-top: 140px;
     }
+    form .btn-danger {
+        margin-top: 60px;
+    }
     #ldAbout h3 {
         font-style: normal;
         font-weight: bold;
-        font-size: 40px;
+        font-size: 30px;
         line-height: 50px;
-    }
-    .stretch {
-        height: 192px;
     }
     .media-body h5 {
         font-style: normal;
         font-weight: normal;
-        font-size: 25px;
-        line-height: 40px;
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .media-body p {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 18px;
     }
     
     .amazing h4 {
@@ -476,6 +598,9 @@ form .btn-danger {
         font-weight: bold;
         font-size: 40px;
         line-height: 50px;
+    }
+    .stretch {
+        height: 192px;
     }
     .best-temp h4 {
         font-style: normal;
@@ -487,7 +612,7 @@ form .btn-danger {
         font-style: normal;
         font-weight: bold;
         font-size: 40px;
-        line-height: 85%;
+        line-height: 60px;
     }
     #prices h4 {
         font-style: normal;
@@ -527,6 +652,15 @@ form .btn-danger {
     img.img-fluid.temp-img {
         margin-top: 170px;
         margin-left: 40px;
+    }
+    form .btn-primary {
+        margin-top: 320px;
+    }
+    form .btn-info {
+        margin-top: 230px;
+    }
+    form .btn-danger {
+        margin-top: 200px;
     }
     #templateView {
         margin-top: 50px;
@@ -630,6 +764,15 @@ i.fa.fa-arrow-right.ar-icon {
     font-size: 24px;
     line-height: 36px;
 }
+ form .btn-primary {
+        margin-top: 300px;
+    }
+    form .btn-info {
+        margin-top: 235px;
+    }
+    form .btn-danger {
+        margin-top: 200px;
+    }
 .action h6 {
     font-style: normal;
     font-weight: bold;
